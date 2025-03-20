@@ -1,0 +1,18 @@
+.thumbnail-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.thumbnail-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+
+.thumbnail-button.active-thumbnail .thumbnail-image {
+  opacity: 1;
+  border: 2px solid #ffffff;
+}

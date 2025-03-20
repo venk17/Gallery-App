@@ -1,0 +1,44 @@
+.gallery-app-container {
+  text-align: center;
+  background-color: #1e293b;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-display-container {
+  margin-bottom: 20px;
+}
+
+.displayed-image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #64748b;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.thumbnail-item {
+  margin: 5px;
+}
